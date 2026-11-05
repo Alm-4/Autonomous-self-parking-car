@@ -29,6 +29,13 @@ tile order changes between runs, and the tiles are placed only after the SSV sta
 no valid bay exists, the SSV must continue forward and stop safely in the engraved area
 opposite the start.
 
+## System Description
+The small scale vehicle — SSV,  operated through the use of an ESP32 microcontroller.
+This allowed our team to make use of GPIO pins to control functionality of a servo for steering,
+as well as a dual motor controller for reverse and forward capabilities. Alongside the utilization of an ESP32 camera
+component that allowed for the interfacing of an image feed, which we then utilized through Python and OpenCV to develop
+a machine vision program. These main elements allowed the SSV to identify their reference tiles, and perform autonomous 
+parks. 
 
 ## Images
 <p>
